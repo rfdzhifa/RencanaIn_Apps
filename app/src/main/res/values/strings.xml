@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project._rencanain</string>
+    <string name="rencanain">RencanaIn</string>
+    <string name="today_task">Today Task</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="todaytask">Today\'s Task</string>
+    <string name="progress">06/10 of Task Completed</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="today_s_task">Today\'s Task</string>
+    <string name="daily_progress">Daily Progress</string>
+    <string name="midterm_exam">Midterm Exam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

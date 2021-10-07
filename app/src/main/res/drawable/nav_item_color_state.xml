@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/unchecked">
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="none"/>
+            <stroke
+                android:color="@color/outline"
+                android:width="1dp"/>
+
+        </shape>
+
+    </item>
+
+    <item android:id="@+id/checked">
+
+        <scale android:scaleWidth="100%">
+
+            <shape android:shape="rectangle">
+                <gradient
+                    android:angle="0"
+                    android:startColor="#CE90FE"
+                    android:endColor="#A58FFF"
+                    />
+            </shape>
+
+        </scale>
+
+    </item>
+
+</layer-list>

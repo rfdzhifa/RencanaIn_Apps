@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/navigasi_calendar"
+        android:title="calendar"/>
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/navigasi_home"
+        android:title="home" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/navigasi_notif"
+        android:title="notification"/>
+</menu>
