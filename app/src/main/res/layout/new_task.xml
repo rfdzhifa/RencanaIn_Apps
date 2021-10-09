@@ -109,15 +109,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <DatePicker
+        <EditText
+            android:id="@+id/editTextDate"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
-            android:headerBackground="#FFFFFF"
-            android:datePickerMode="calendar"
-            android:calendarTextColor="#4B4B4B"
-            android:contextClickable="true"/>
-
+            android:textSize="12sp"
+            android:lineHeight="18sp"
+            android:paddingLeft="21.5dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#4B4B4B"
+            android:ems="10"
+            android:inputType="date"
+            android:background="#FFFFFF"/>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -146,9 +149,8 @@
             android:lineHeight="18sp"
             android:paddingLeft="21.5dp"
             android:fontFamily="@font/poppins"
-            android:textAlignment="center"
             android:textColor="#4B4B4B"
-            android:background="transparent"
+            android:background="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -199,9 +201,8 @@
             android:lineHeight="18sp"
             android:paddingLeft="21.5dp"
             android:fontFamily="@font/poppins"
-            android:textAlignment="center"
             android:textColor="#4B4B4B"
-            android:background="transparent"
+            android:background="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -320,17 +321,17 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:checked="true"
-            android:text="Priority"
             android:layout_width="70dp"
             android:layout_height="13dp"
-            android:textSize="8sp"
+            android:layout_marginLeft="154dp"
+            android:background="@drawable/radio_selector"
+            android:button="@drawable/gradient"
+            android:checked="true"
             android:fontFamily="@font/poppins"
             android:gravity="center|center"
-            android:button="transparent"
-            android:background="@drawable/radio_selector"
+            android:text="Priority"
             android:textColor="@drawable/text_color"
-            android:layout_marginLeft="154dp"/>
+            android:textSize="8sp" />
 
         <RadioButton
             android:checked="false"
@@ -340,7 +341,7 @@
             android:textSize="8sp"
             android:fontFamily="@font/poppins"
             android:gravity="center|center"
-            android:button="transparent"
+            android:button="@drawable/gradient"
             android:background="@drawable/radio_selector"
             android:textColor="@drawable/text_color"
             android:layout_marginLeft="9dp"/>
@@ -353,7 +354,7 @@
         android:layout_marginLeft="250dp"
         android:layout_marginTop="400dp"
         android:background="@drawable/button"
-        app:backgroundTint="none"
+        app:backgroundTint="@color/purple_200"
         android:text="Save"
         android:textSize="12dp"
         android:fontFamily="@font/poppins"
@@ -363,7 +364,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

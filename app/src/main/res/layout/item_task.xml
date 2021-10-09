@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="315dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="48dp"
+        android:outlineSpotShadowColor="#AEAEAE"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="100dp">
+
+        <TextView
+            android:id="@+id/title_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#4b4b4b"
+            android:textSize="10sp"
+            android:text="@string/title_task"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#4b4b4b"
+            android:textSize="8sp"
+            android:text="@string/date" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="20dp"
+            android:checked="true"
+            android:padding="10dp"
+            android:thumb="@drawable/thumb"
+            app:track="@drawable/track"
+            android:id="@+id/switchbutton"/>
+
+    </androidx.cardview.widget.CardView>
