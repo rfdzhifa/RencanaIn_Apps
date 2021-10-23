@@ -16,10 +16,9 @@ class adapter_task (private val context: Context, private val rencanain: List<it
         val date = view.findViewById<TextView>(R.id.date)
 
         fun bindView(rencanain: item_task, listener: (item_task) -> Unit) {
-
             title_task.text = rencanain.title_task
             date.text = rencanain.date
-
+            itemView.setOnClickListener{listener(rencanain)}
         }
 
     }

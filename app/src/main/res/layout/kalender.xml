@@ -10,7 +10,6 @@
         android:id="@+id/cardView"
         android:layout_width="409dp"
         android:layout_height="430dp"
-        app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -240,33 +239,5 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
-
-    <View
-        android:layout_width="97dp"
-        android:layout_height="79dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="625dp"
-        android:background="@drawable/ic_newtaskicon"
-        android:outlineSpotShadowColor="#888888"
-        android:elevation="50dp" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="62dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:outlineSpotShadowColor="#888888"
-        android:layout_marginBottom="0dp"
-        app:cardElevation="40dp"
-        app:menu="@menu/bottom_navigation_items"
-        app:itemIconSize="24dp"
-        app:labelVisibilityMode="unlabeled"
-        android:background="#FCFCFC"
-        app:itemIconTint="#4B4B4B">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -171,157 +171,19 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="315dp"
-                        android:layout_height="58dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginLeft="48dp"
-                        android:layout_marginTop="325dp"
-                        android:layout_marginRight="48dp"
-                        android:outlineSpotShadowColor="#888888"
-                        app:cardBackgroundColor="#FFFFFF"
-                        app:cardCornerRadius="18dp"
-                        app:cardElevation="40dp"
-                        tools:targetApi="p">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="320dp">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginLeft="26dp"
-                            android:layout_marginTop="14dp"
-                            android:fontFamily="@font/poppins_semibold"
-                            android:text="@string/midterm_exam"
-                            android:textColor="#4b4b4b"
-                            android:textSize="10sp" />
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/tasklist"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:listitem="@layout/item_task"
+                            />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginLeft="26dp"
-                            android:layout_marginTop="30dp"
-                            android:fontFamily="@font/poppins"
-                            android:text="Today, 24.00 - 16.00"
-                            android:textColor="#4b4b4b"
-                            android:textSize="8sp" />
-
-                        <androidx.appcompat.widget.SwitchCompat
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="110dp"
-                            android:layout_marginRight="20dp"
-                            android:checked="true"
-                            android:padding="10dp"
-                            android:thumb="@drawable/thumb"
-                            app:track="@drawable/track" />
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="315dp"
-                        android:layout_height="58dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginLeft="48dp"
-                        android:layout_marginTop="394dp"
-                        android:layout_marginRight="48dp"
-                        app:cardBackgroundColor="#FFFFFF"
-                        android:outlineSpotShadowColor="#888888"
-                        app:cardCornerRadius="18dp"
-                        app:cardElevation="40dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginLeft="26dp"
-                            android:layout_marginTop="14dp"
-                            android:fontFamily="@font/poppins_semibold"
-                            android:text="Cleaning the House"
-                            android:textColor="#4b4b4b"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginLeft="26dp"
-                            android:layout_marginTop="30dp"
-                            android:fontFamily="@font/poppins"
-                            android:text="Today, 20.00"
-                            android:textColor="#4b4b4b"
-                            android:textSize="8sp" />
-
-                        <androidx.appcompat.widget.SwitchCompat
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="110dp"
-                            android:layout_marginRight="20dp"
-                            android:checked="false"
-                            android:padding="10dp"
-                            android:thumb="@drawable/thumb"
-                            app:track="@drawable/track" />
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="315dp"
-                        android:layout_height="58dp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginLeft="48dp"
-                        android:layout_marginTop="463dp"
-                        app:cardBackgroundColor="#FFFFFF"
-                        android:outlineSpotShadowColor="#888888"
-                        app:cardCornerRadius="18dp"
-                        app:cardElevation="40dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginLeft="26dp"
-                            android:layout_marginTop="14dp"
-                            android:fontFamily="@font/poppins_semibold"
-                            android:text="Movie Night with Friend"
-                            android:textColor="#4b4b4b"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentTop="true"
-                            android:layout_marginLeft="26dp"
-                            android:layout_marginTop="30dp"
-                            android:fontFamily="@font/poppins"
-                            android:text="Today, 22.10"
-                            android:textColor="#4b4b4b"
-                            android:textSize="8sp" />
-
-                        <androidx.appcompat.widget.SwitchCompat
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginLeft="110dp"
-                            android:layout_marginRight="20dp"
-                            android:checked="true"
-                            android:padding="10dp"
-                            android:thumb="@drawable/thumb"
-                            app:track="@drawable/track" />
-
-                    </androidx.cardview.widget.CardView>
+                    </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
 
@@ -343,20 +205,35 @@
         android:outlineSpotShadowColor="#888888"
         android:elevation="50dp" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+    <FrameLayout
+        android:id="@+id/fram_nav"
         android:layout_width="match_parent"
-        android:layout_height="62dp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:outlineSpotShadowColor="#888888"
-        android:layout_marginBottom="0dp"
-        app:cardElevation="40dp"
-        app:menu="@menu/bottom_navigation_items"
-        app:itemIconSize="24dp"
-        app:labelVisibilityMode="unlabeled"
-        android:background="#FCFCFC"
-        app:itemIconTint="#4B4B4B">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomnav"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:outlineSpotShadowColor="#888888"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dp"
+            app:cardElevation="40dp"
+            app:menu="@menu/bottom_navigation_items"
+            app:itemIconSize="24dp"
+            app:labelVisibilityMode="unlabeled"
+            android:background="#FCFCFC"
+            app:itemIconTint="#4B4B4B">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
